@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
 import 'package:mail_ui/core/constants/app_strings.dart';
+import 'package:mail_ui/feature/bottomNavigator/view/bottomBar.dart';
 import 'package:mail_ui/feature/homeScreen/view/homeview.dart';
 
 class WelcomeScreen extends StatelessWidget {
@@ -77,7 +78,7 @@ class WelcomeScreen extends StatelessWidget {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(primary: Colors.white),
       onPressed: () {
-        context.navigateToPage(const HomeView());
+        context.navigateToPage(const BottomNavigator());
       },
       child: Padding(
         padding: context.paddingNormal,

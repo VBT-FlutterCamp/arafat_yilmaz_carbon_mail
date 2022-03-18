@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mail_ui/feature/bottomNavigator/view/bottomBar.dart';
 import 'package:mail_ui/feature/homeScreen/view/homeview.dart';
 import 'package:mail_ui/feature/welcomeScreen/view/welcome_view.dart';
 
